@@ -1,0 +1,209 @@
+header {
+    text-align: center;
+    background-color: #912929;
+
+}
+
+
+.hero {
+    background-image: url('Images/Sport\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 40px;
+    color: white;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .news-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .news-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .news-card h3 {
+    margin: 10px 15px 5px;
+    font-size: 18px;
+  }
+  
+  .news-card p {
+    margin: 0 15px 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .news-card span {
+    margin: 0 15px 15px;
+    font-size: 12px;
+    color: #912929;
+  }
+
+  /* Media Page Grid */
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.media-card {
+  background: rgb(197, 207, 8);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.media-card video {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.media-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.media-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* League Section */
+.league-section {
+  margin-bottom: 40px;
+}
+
+.league-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Contact Page */
+.contact-info {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.contact-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}
